@@ -1,5 +1,7 @@
 import { TagCloud } from 'react-tagcloud';
 import './App.css';
+import Experience from './Experience';
+import Info from './Info';
 
 interface Tag {
   value: string;
@@ -30,7 +32,8 @@ const data: Tag[] = [
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="tag-cloud">
+        <Info />
         <TagCloud
           minSize={12}
           maxSize={35}
@@ -38,7 +41,7 @@ function App() {
           className="simple-cloud"
           onClick={(tag: Tag) => alert(`'${tag.value}' was selected!`)}
         />
-      </header>
+      </div>
     </div>
   );
 }
