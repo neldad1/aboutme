@@ -32,16 +32,15 @@ const data: Tag[] = [
 function App() {
   return (
     <div className="App">
-      <div className="tag-cloud">
-        <Info />
-        <TagCloud
-          minSize={12}
-          maxSize={35}
-          tags={data}
-          className="simple-cloud"
-          onClick={(tag: Tag) => alert(`'${tag.value}' was selected!`)}
-        />
-      </div>
+      <Info />
+      <TagCloud
+        minSize={12}
+        maxSize={35}
+        tags={data}
+        className="tag-cloud"
+        onClick={(tag: Tag) => alert(`'${tag.value}' was selected!`)}
+      />
+      <Experience />
     </div>
   );
 }

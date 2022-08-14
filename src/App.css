@@ -1,22 +1,19 @@
 .App {
-  text-align: center;
-  background-color: #282c34;
-  color: wheat;
+  background-color: #005b4f;
   min-height: 100vh;
 }
 
 .tag-cloud {
-  min-height: 50vh;
   width: 50vw;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 2em auto;
 }
 
 .info {
-  min-height: 30vh;
+  min-height: 10vh;
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -26,11 +23,28 @@
 }
 
 .experience {
-  min-height: 30vh;
+  min-height: 50vh;
   width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.circle-icon {
+  background-color: #00897b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-text {
+  color: white;
+}
+
+@media only screen and (max-width: 780px){ 
+  .info, .tag-cloud {
+    width: 95%;
+  }
 }
