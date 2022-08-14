@@ -14,8 +14,8 @@ function Experience() {
   return (
     <VerticalTimeline>
       <VerticalTimelineElement
-        contentStyle={{ background: '#00897b', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #00897b' }}
+        contentStyle={{ background: '#00acc1', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00acc1' }}
         iconClassName="circle-icon"
         icon={<LanguageIcon src={Zendesk} title="Zendesk" />}
         date="May - Aug 2022"
@@ -30,8 +30,8 @@ function Experience() {
         </h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        contentStyle={{ background: '#4ebaaa', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #4ebaaa' }}
+        contentStyle={{ background: '#5ddef4', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #5ddef4' }}
         iconClassName="circle-icon"
         icon={<LanguageIcon src={GA} title="General Assembly" />}
         date="Jan - Apr 2022"
@@ -46,8 +46,8 @@ function Experience() {
         </h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        contentStyle={{ background: '#00897b', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #00897b' }}
+        contentStyle={{ background: '#00acc1', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00acc1' }}
         iconClassName="circle-icon"
         icon={<LanguageIcon src={Bliimo} title="Bliimo" />}
         date="Apr - Jun 2019"
@@ -61,8 +61,8 @@ function Experience() {
         </h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        contentStyle={{ background: '#4ebaaa', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #4ebaaa' }}
+        contentStyle={{ background: '#5ddef4', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #5ddef4' }}
         iconClassName="circle-icon"
         icon={<LanguageIcon src={RSA} title="Rohde&Schwarz Asia" />}
         date="Oct 2010 - Dec 2017"
@@ -78,8 +78,8 @@ function Experience() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '#00897b', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #00897b' }}
+        contentStyle={{ background: '#00acc1', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  #00acc1' }}
         iconClassName="circle-icon"
         icon={<LanguageIcon src={VFI} title="Verifone" />}
         date="Jun 2005 - Jun 2010"

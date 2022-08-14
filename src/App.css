@@ -1,5 +1,5 @@
 .App {
-  background-color: #005b4f;
+  background-color: #007c91;
   min-height: 100vh;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .circle-icon {
-  background-color: #00897b;
+  background-color: #007c91;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 780px){ 
+@media only screen and (max-width: 1024px){ 
   .info, .tag-cloud {
     width: 95%;
   }
