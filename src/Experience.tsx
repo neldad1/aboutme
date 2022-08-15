@@ -9,6 +9,7 @@ import GA from './logos/ga-b.png';
 import Bliimo from './logos/bliimo.png';
 import RSA from './logos/rsa.png';
 import VFI from './logos/verifone.png';
+import { H5 } from './Experience.styled';
 
 function Experience() {
   return (
@@ -21,13 +22,13 @@ function Experience() {
         date="May - Aug 2022"
         dateClassName="date-text"
       >
-        <h3 className="vertical-timeline-element-title">
+        <h4 className="vertical-timeline-element-title">
           Software Engineering Intern, Zendesk
-        </h3>
-        <h5 className="vertical-timeline-element-subtitle">
+        </h4>
+        <H5 className="vertical-timeline-element-subtitle">
           Worked on the internal tools for Zendesk API and API documentation
           using Golang, Postman API and GitHub Actions.
-        </h5>
+        </H5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: '#5ddef4', color: '#000' }}
@@ -37,13 +38,13 @@ function Experience() {
         date="Jan - Apr 2022"
         dateClassName="date-text"
       >
-        <h3 className="vertical-timeline-element-title">
+        <h4 className="vertical-timeline-element-title">
           React Development Course, General Assembly
-        </h3>
-        <h5 className="vertical-timeline-element-subtitle">
+        </h4>
+        <H5 className="vertical-timeline-element-subtitle">
           Participated in Victoria's Digital Jobs Program and finished the final
           project using React Typescript, Firebase Auth and Firestore.
-        </h5>
+        </H5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: '#00acc1', color: '#000' }}
@@ -53,12 +54,12 @@ function Experience() {
         date="Apr - Jun 2019"
         dateClassName="date-text"
       >
-        <h3 className="vertical-timeline-element-title">
+        <h4 className="vertical-timeline-element-title">
           Freelance Frontend Consultant, Bliimo
-        </h3>
-        <h5 className="vertical-timeline-element-subtitle">
+        </h4>
+        <H5 className="vertical-timeline-element-subtitle">
           Worked on the admin and technology websites using Angular Typescript.
-        </h5>
+        </H5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: '#5ddef4', color: '#000' }}
@@ -68,13 +69,13 @@ function Experience() {
         date="Oct 2010 - Dec 2017"
         dateClassName="date-text"
       >
-        <h3 className="vertical-timeline-element-title">
+        <h4 className="vertical-timeline-element-title">
           Software Development Engineer, Rohde&Schwarz
-        </h3>
-        <h5 className="vertical-timeline-element-subtitle">
+        </h4>
+        <H5 className="vertical-timeline-element-subtitle">
           Worked on the radio monitoring system software for military and
           commercial purposes using C++ Qt and C# WPF.
-        </h5>
+        </H5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -85,12 +86,12 @@ function Experience() {
         date="Jun 2005 - Jun 2010"
         dateClassName="date-text"
       >
-        <h3 className="vertical-timeline-element-title">
+        <h4 className="vertical-timeline-element-title">
           Software Design Engineer, Verifone
-        </h3>
-        <h5 className="vertical-timeline-element-subtitle">
+        </h4>
+        <H5 className="vertical-timeline-element-subtitle">
           Worked on the libraries of a payment solution using C and OpenSSL.
-        </h5>
+        </H5>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

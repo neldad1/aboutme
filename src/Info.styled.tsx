@@ -10,4 +10,10 @@ const H3 = styled.h3`
   color: whitesmoke;
 `;
 
-export { H1, H3 };
+const HorizontalDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export { H1, H3, HorizontalDiv };
