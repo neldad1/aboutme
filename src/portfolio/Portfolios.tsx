@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { PortfolioDiv } from './Portfolio.styled';
 import Data from './PortfolioData.json';
 import PortfolioItem from './PortfolioItem';
@@ -14,9 +15,17 @@ export interface Portfolio {
 }
 
 const Portfolios = () => {
-  const portfolioList = Data.portfolios.map(
-    (portfolio) => portfolio as Portfolio
-  );
+  const [portfolioList, setPortfolioList] = useState<Portfolio[]>([]);
+
+  useEffect(() => {
+    const portfolios = Data.portfolios.map(
+      (portfolio) => portfolio as Portfolio
+    );
+    setPortfolioList(portfolios);
+  }, []);
+
+  if (portfolioList.length === 0) return <></>;
+
   return (
     <PortfolioDiv>
       {portfolioList.map((portfolio, i) => (

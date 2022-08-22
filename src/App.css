@@ -8,7 +8,7 @@
 }
 
 .tag-cloud {
-  width: 50vw;
+  width: 60vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -49,6 +49,6 @@
 
 @media only screen and (max-width: 1024px){ 
   .info, .tag-cloud {
-    width: 95%;
+    width: 100%;
   }
 }

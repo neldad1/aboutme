@@ -7,6 +7,9 @@ export interface PortfolioItemProps {
   isMediaLeft: boolean;
 }
 const PortfolioItem = ({ item, isMediaLeft }: PortfolioItemProps) => {
+  if (window.screen.width <= 768) {
+    isMediaLeft = false;
+  }
   const { media, name } = item;
   return isMediaLeft ? (
     <PortfolioItemDiv>
