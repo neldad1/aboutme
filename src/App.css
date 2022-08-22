@@ -3,6 +3,10 @@
   min-height: 100vh;
 }
 
+.summary {
+  min-height: 100vh;
+}
+
 .tag-cloud {
   width: 50vw;
   display: flex;

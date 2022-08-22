@@ -5,7 +5,7 @@
       "skills": ["React", "Typescript", "Javascript", "Firebase", "Firestore", "Jest", "API", "Styled-Components", "CSS"],
       "name": "Playmeets",
       "description": "Playmeets is a website application, targeting the parents who want their child to play and mingle with other kids of the same age group by joining and/or posting an event. Instead of going to the playgrounds and other play centres alone, a parent can post an event in Playmeets to inform and invite others to join them.",
-      "cover": "https://res.cloudinary.com/playmeets/image/upload/v1660539800/aboutme/1_pvbkm3.svg",
+      "media": "https://res.cloudinary.com/playmeets/image/upload/v1660539800/aboutme/1_pvbkm3.svg",
       "link": "https://playmeets.herokuapp.com/",
       "github": "https://github.com/neldad1/playmeets",
       "experience": "e-djp"
@@ -15,7 +15,7 @@
       "skills": ["React", "Javascript", "API", "Styled-Components", "CSS"],
       "name": "Country Weather App",
       "description": "Weather app for the user's country. Multiple forecast for different zip codes within the country is possible.",
-      "cover": "https://res.cloudinary.com/playmeets/image/upload/v1660539771/aboutme/5_lepqpl.svg",
+      "media": "https://res.cloudinary.com/playmeets/image/upload/v1660539771/aboutme/5_lepqpl.svg",
       "link": "https://neldad1-weather-app.herokuapp.com/",
       "github": "https://github.com/neldad1/weather",
       "experience": "e-djp"
