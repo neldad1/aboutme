@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aboutme/static/css/main.7b59b983.css",
-    "main.js": "/aboutme/static/js/main.79df052d.js",
+    "main.css": "/aboutme/static/css/main.a17d22c6.css",
+    "main.js": "/aboutme/static/js/main.ab4eae43.js",
     "static/js/787.cf53e342.chunk.js": "/aboutme/static/js/787.cf53e342.chunk.js",
     "static/media/ga-b.png": "/aboutme/static/media/ga-b.2e2133c7759f09cba240.png",
     "static/media/verifone.png": "/aboutme/static/media/verifone.c6adfdacdb583cf5284c.png",
     "static/media/bliimo.png": "/aboutme/static/media/bliimo.c5fc1c792feced5183a6.png",
     "static/media/zendesk.svg": "/aboutme/static/media/zendesk.c3dcca2be7ae4ba264cc07429d681d8c.svg",
     "index.html": "/aboutme/index.html",
-    "main.7b59b983.css.map": "/aboutme/static/css/main.7b59b983.css.map",
-    "main.79df052d.js.map": "/aboutme/static/js/main.79df052d.js.map",
+    "main.a17d22c6.css.map": "/aboutme/static/css/main.a17d22c6.css.map",
+    "main.ab4eae43.js.map": "/aboutme/static/js/main.ab4eae43.js.map",
     "787.cf53e342.chunk.js.map": "/aboutme/static/js/787.cf53e342.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b59b983.css",
-    "static/js/main.79df052d.js"
+    "static/css/main.a17d22c6.css",
+    "static/js/main.ab4eae43.js"
   ]
 }
