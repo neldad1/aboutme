@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { CategoryTitle } from '../App.styled';
 import { PortfolioDiv } from './Portfolio.styled';
 import Data from './PortfolioData.json';
 import PortfolioItem from './PortfolioItem';
@@ -14,20 +15,32 @@ export interface Portfolio {
   experience: string;
 }
 
-const Portfolios = () => {
+interface PortfoliosProps {
+  tag: string;
+}
+
+const Portfolios = ({ tag }: PortfoliosProps) => {
   const [portfolioList, setPortfolioList] = useState<Portfolio[]>([]);
 
   useEffect(() => {
     const portfolios = Data.portfolios.map(
       (portfolio) => portfolio as Portfolio
     );
-    setPortfolioList(portfolios);
+    if (tag === 'all') {
+      setPortfolioList(portfolios);
+    } else {
+      const filteredPortfolios = portfolios.filter((portfolio) =>
+        portfolio.skills.find((skill) => skill === tag)
+      );
+      setPortfolioList(filteredPortfolios);
+    }
   }, []);
 
   if (portfolioList.length === 0) return <></>;
 
   return (
     <PortfolioDiv>
+      <CategoryTitle>Portfolios</CategoryTitle>
       {portfolioList.map((portfolio, i) => (
         <PortfolioItem
           key={portfolio.id}

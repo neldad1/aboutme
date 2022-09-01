@@ -9,7 +9,7 @@ const PortfolioItemInfo = ({ item }: PortfolioItemInfoProps) => {
   const { name, description, skills, github, link } = item;
   return (
     <PortfolioItemInfoDiv>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <h4>{description}</h4>
       <PortfolioItemLink github={github} webApp={link} />
       <p>{skills.join(' | ')}</p>

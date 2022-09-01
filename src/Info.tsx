@@ -2,11 +2,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import { H1, H3, HorizontalDiv } from './Info.styled';
+import { Link } from 'react-router-dom';
 
 function Info() {
   return (
     <div className="info">
-      <H1>Nelda Arvesu</H1>
+      <Link to="/">
+        <H1>Nelda Arvesu</H1>
+      </Link>
       <HorizontalDiv>
         <H3>Melbourne</H3>
         <IconButton

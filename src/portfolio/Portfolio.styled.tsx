@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 const PortfolioDiv = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 `;
 
 const PortfolioItemDiv = styled.div`
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,15 +20,16 @@ const PortfolioItemDiv = styled.div`
 const PortfolioItemInfoDiv = styled.div`
   display: block;
   width: 50%;
+  margin: 0 2em;
   @media only screen and (max-width: 768px) {
     width: 100%;
+    margin: auto;
   }
 `;
 
 const PortfolioCover = styled.img`
   background-color: #5ddef4;
-  margin: 2em;
-  width: 50%;
+  width: 40%;
   object-fit: contain;
   @media only screen and (max-width: 768px) {
     width: 100%;

@@ -1,0 +1,74 @@
+{
+  "tags": [
+    {
+      "id": "se-lang-0",
+      "title": "C/C++",
+      "count": 25
+    },
+    {
+      "id": "se-lang-1",
+      "title": "C# WPF",
+      "count": 18
+    },
+    {
+      "id": "se-lang-2",
+      "title": "Golang",
+      "count": 28
+    },
+    {
+      "id": "se-framework-0",
+      "title": "Qt",
+      "count": 25
+    },
+    {
+      "id": "fe-lang-0",
+      "title": "Javascript",
+      "count": 25
+    },
+    {
+      "id": "fe-lang-1",
+      "title": "Typescript",
+      "count": 25
+    },
+    {
+      "id": "fe-framework-0",
+      "title": "Angular",
+      "count": 18
+    },
+    {
+      "id": "fe-framework-1",
+      "title": "React",
+      "count": 28
+    },
+    {
+      "id": "cicd-tools-0",
+      "title": "GitHub Actions",
+      "count": 21
+    },
+    {
+      "id": "web-dev-0",
+      "title": "API",
+      "count": 21
+    },
+    {
+      "id": "website-0",
+      "title": "Wordpress",
+      "count": 18
+    },
+    {
+      "id": "role-0",
+      "title": "Software Engineer",
+      "count": 38
+    },
+    {
+      "id": "role-1",
+      "title": "Frontend Engineer",
+      "count": 30
+    },
+    {
+      "id": "role-2",
+      "title": "Graphic Designer",
+      "count": 20
+    }
+  ]
+}
